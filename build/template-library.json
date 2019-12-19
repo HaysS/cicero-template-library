@@ -4624,7 +4624,7 @@
         "type": 1
     },
     "car-rental-tr@0.10.0": {
-        "uri": "ap://car-rental-tr@0.10.0#6d4a63914f591fb2fa3a21c19183a5f953c09c0679d41cb047c0fa5c5eabe5f2",
+        "uri": "ap://car-rental-tr@0.10.0#5105b430058694c7439fa9debd3aee9bdc62ecf3b07ac86e2d5c1d67dcbe8152",
         "url": "https://templates.accordproject.org/archives/car-rental-tr@0.10.0.cta",
         "name": "car-rental-tr",
         "displayName": "Car Rental (TR)",
@@ -4794,7 +4794,7 @@
         "type": 0
     },
     "interest-rate-swap@0.6.0": {
-        "uri": "ap://interest-rate-swap@0.6.0#8d3934737bdb6c28e106e24333ea8f0ac817bb5405eac0b87ef15013e1451f2e",
+        "uri": "ap://interest-rate-swap@0.6.0#6bd06b7fbe3cbc3454f8a6fbca1af688913f94467099d3434b9873bc67c2e95b",
         "url": "https://templates.accordproject.org/archives/interest-rate-swap@0.6.0.cta",
         "name": "interest-rate-swap",
         "displayName": "Interest Rate Swap",
@@ -4804,7 +4804,7 @@
         "type": 0
     },
     "ip-payment@0.12.0": {
-        "uri": "ap://ip-payment@0.12.0#7f6a5535c64e975ed64e35efa95263630075b7fd3c9804e72d93deae9815cc4e",
+        "uri": "ap://ip-payment@0.12.0#961a21214068ce89e7d43373630786574745ab32e17f51cefc98ca6c176f3757",
         "url": "https://templates.accordproject.org/archives/ip-payment@0.12.0.cta",
         "name": "ip-payment",
         "displayName": "IP Payment",
@@ -4864,7 +4864,7 @@
         "type": 0
     },
     "one-time-payment-tr@0.12.0": {
-        "uri": "ap://one-time-payment-tr@0.12.0#a0d715a0b6192b3b7212f2c49fe3b11eecb91645ebe1e04ba228d18dd1866df3",
+        "uri": "ap://one-time-payment-tr@0.12.0#187ef01cdadefc33a0f6cd64c3ad72f674999303696358a8cec9a7abcbdced2e",
         "url": "https://templates.accordproject.org/archives/one-time-payment-tr@0.12.0.cta",
         "name": "one-time-payment-tr",
         "displayName": "One Time Payment (TR)",
@@ -4874,7 +4874,7 @@
         "type": 0
     },
     "online-payment-contract-tr@0.10.0": {
-        "uri": "ap://online-payment-contract-tr@0.10.0#56290cba3e9832153d3f7aebbe8397f2d72ef5a10380f410d2ecc28b4a84365b",
+        "uri": "ap://online-payment-contract-tr@0.10.0#941ac5491bfa19dd7f444b23024a0f3b9d23526e827c8d3dd1914b08c8fda0cb",
         "url": "https://templates.accordproject.org/archives/online-payment-contract-tr@0.10.0.cta",
         "name": "online-payment-contract-tr",
         "displayName": "Online Payment Contract (TR)",
@@ -4964,7 +4964,7 @@
         "type": 0
     },
     "saft@0.14.0": {
-        "uri": "ap://saft@0.14.0#dc7ac4330e21fff9de9b68ec98a39514659c51afadb4a9506cb13980f89579e2",
+        "uri": "ap://saft@0.14.0#5b2b9a4fef0f611c340367d2674c60f16089cc8a7c40f1c90b4aca79abb941c1",
         "url": "https://templates.accordproject.org/archives/saft@0.14.0.cta",
         "name": "saft",
         "displayName": "SAFT",
@@ -4974,7 +4974,7 @@
         "type": 0
     },
     "safte@0.14.0": {
-        "uri": "ap://safte@0.14.0#540d015244bd60ffead67813dfa7cc7e558ece172e5c6d93ba100bec9ae5d5c6",
+        "uri": "ap://safte@0.14.0#3ecbede67d9eea02bd92df49809263ad94cf653f950fb1ef37601c0e255c7eeb",
         "url": "https://templates.accordproject.org/archives/safte@0.14.0.cta",
         "name": "safte",
         "displayName": "SAFTE",
@@ -4984,7 +4984,7 @@
         "type": 0
     },
     "sales-contract-ru@0.10.0": {
-        "uri": "ap://sales-contract-ru@0.10.0#cd01d68bdfbe274a60283321205515b03386ad458d1e793ac944ef3f16f8d00e",
+        "uri": "ap://sales-contract-ru@0.10.0#8b36fe6e647143967a59b99e743e8730f45eb0b90ff2b4d33b755f861cb139c0",
         "url": "https://templates.accordproject.org/archives/sales-contract-ru@0.10.0.cta",
         "name": "sales-contract-ru",
         "displayName": "Sales Contract (RU)",
@@ -5014,7 +5014,7 @@
         "type": 0
     },
     "supplyagreement@0.12.0": {
-        "uri": "ap://supplyagreement@0.12.0#8549b580a8bc48cb8d4b428a6b4754a85874eb59699ad041fdd15f54a51cad28",
+        "uri": "ap://supplyagreement@0.12.0#00cfebd40262329d75e3b63435de0067d0843edc7fd78b50b561f98e3aa643af",
         "url": "https://templates.accordproject.org/archives/supplyagreement@0.12.0.cta",
         "name": "supplyagreement",
         "displayName": "Supply Agreement",
@@ -5024,7 +5024,7 @@
         "type": 0
     },
     "supplyagreement-perishable-goods@0.14.0": {
-        "uri": "ap://supplyagreement-perishable-goods@0.14.0#059ed366452e48298709c2320d4d44b5fe47a217c9fd675b0d983a1c4e8293fc",
+        "uri": "ap://supplyagreement-perishable-goods@0.14.0#93b3717a35e323b58dfc9ea58713cb39fc8888eb97a82d9dba834bce3b098019",
         "url": "https://templates.accordproject.org/archives/supplyagreement-perishable-goods@0.14.0.cta",
         "name": "supplyagreement-perishable-goods",
         "displayName": "Supply Agreement Perishable Goods",
@@ -5074,7 +5074,7 @@
         "type": 1
     },
     "volumediscountulist@0.2.1": {
-        "uri": "ap://volumediscountulist@0.2.1#8cf849ca763071ed333fde22f3636ed7ef4294dce34f69d71bc3b75d75fca800",
+        "uri": "ap://volumediscountulist@0.2.1#76a90a50ac8db3a4161d4d53003e67740126ec0593c34192665a6f575f9ee070",
         "url": "https://templates.accordproject.org/archives/volumediscountulist@0.2.1.cta",
         "name": "volumediscountulist",
         "displayName": "Volumediscountulist",

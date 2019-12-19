@@ -38,7 +38,6 @@ a:hover {
 	margin-bottom: 50px;
 }
   
-
 .content p {
 	font-size: 15px;
 	font-weight: 300;
@@ -168,7 +167,7 @@ a.navbar-item img {
   background-image: url(/assets/images/noise.png);
   background-size: 276px 276px;
   pointer-events: none;
-  }
+}
 
 .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag) {
 	color: rgb(25, 198, 199);
@@ -309,4 +308,12 @@ table.table.box.versions {
 
 .technical-integration.content {
 	margin-bottom: 20px;
+}
+
+#tab-content div {
+  display: none;
+}
+
+#tab-content div.is-active {
+  display: inline-block;
 }

@@ -1,48 +1,49 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
-  <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120382669-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-120382669-1');
-      </script>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120382669-1"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-120382669-1');
+        </script>
 
-      <script>
-          // handle drop down menus
-          window.addEventListener('load', function () {
-              var dropdown = document.querySelector('.dropdown');
-              if(dropdown) {
-                  dropdown.addEventListener('click', function(event) {
-                      event.stopPropagation();
-                      dropdown.classList.toggle('is-active');
-                  });
-              }
-          }, false);
-      </script>
-      
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+         // handle drop down menus
+         window.addEventListener('load', function () {
+             var dropdown = document.querySelector('.dropdown');
+             if(dropdown) {
+                 dropdown.addEventListener('click', function(event) {
+                     event.stopPropagation();
+                     dropdown.classList.toggle('is-active');
+                 });
+             }
+         }, false);
+        </script>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      
-      
-      
+        
+        
+        
 
-      <!-— generic unfurl tags -->
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:domain" content="templates.accordproject.org" />
-      <meta name="twitter:label1" content="Apache 2.0 Licensed" />
-      <meta name="twitter:data1" content="on GitHub.com" />
-      <meta name="twitter:label2" content="Contribute" />
-      <meta name="twitter:data2" content="at AccordProject.org" />
+        <!-— generic unfurl tags -->
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:domain" content="templates.accordproject.org" />
+        <meta name="twitter:label1" content="Apache 2.0 Licensed" />
+        <meta name="twitter:data1" content="on GitHub.com" />
+        <meta name="twitter:label2" content="Contribute" />
+        <meta name="twitter:data2" content="at AccordProject.org" />
 
-      
+        
   <!-— facebook open graph tags -->
   <meta property="og:url" content="https://templates.accordproject.org/acceptance-of-delivery@0.13.1.html" />
   <meta property="og:title" content="acceptance-of-delivery@0.13.1" />
@@ -57,14 +58,28 @@
   <meta name="twitter:url" content="https://templates.accordproject.org/acceptance-of-delivery@0.13.1.html" />
 
 
-      <title>Accord Project Template Library</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/idea.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
-      <link rel="stylesheet" href="assets/fonts.css" />
-      <link rel="stylesheet" href="styles.css" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+        <title>Accord Project Template Library</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/idea.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+        <link rel="stylesheet" href="assets/fonts.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+         $(document).ready(function() {
+             $('#tabs li').on('click', function() {
+                 var tab = $(this).data('tab');
+
+                 $('#tabs li').removeClass('is-active');
+                 $(this).addClass('is-active');
+
+                 $('#tab-content div').removeClass('is-active');
+                 $('div[data-content="' + tab + '"]').addClass('is-active');
+             });
+         });
+        </script>
       <script>
        hljs.initHighlightingOnLoad();
        hljs.registerLanguage('ergo', function(hljs) {
@@ -292,13 +307,33 @@
 
         <h2 class="title is-2">Template Text</h2>
 
-        <div class="content">
-          <p></p>
+        <div class="tabs" id="tabs">
+            <ul>
+                <li class="is-active" data-tab="1">
+                    <a>
+                        <span>Grammar</span>
+                    </a>
+                </li>
+                <li data-tab="2">
+                    <a>
+                        <span>Sample</span>
+                    </a>
+                </li>
+                <li data-tab="3">
+                    <a>
+                        <span>Data</span>
+                    </a>
+                </li>
+                <li data-tab="4">
+                    <a>
+                        <span>HTML</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-
-        <h4 class="title is-4">Grammar</h4>
-        <div class="content box">
-          <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="tem">Acceptance of Delivery.
+        <div id="tab-content">
+            <div class="is-active content box" data-content="1">
+                <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="tem">Acceptance of Delivery.
 ----
 
 {{shipper}} will be deemed to have completed its delivery obligations
@@ -321,11 +356,9 @@ The "Acceptance Criteria" are the specifications the {{deliverable}}
 must meet for the {{shipper}} to comply with its requirements and
 obligations under this agreement, detailed in {{attachment}}, attached
 to this agreement.</code></pre>
-        </div>
-
-        <h4 class="title is-4">Sample</h4>
-        <div class="content box">
-          <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="markdown">## Acceptance of Delivery.
+            </div>
+            <div class="content box" data-content="2">
+                <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="markdown">## Acceptance of Delivery.
 
 "Party A" will be deemed to have completed its delivery obligations
 if in "Party B"'s opinion, the "Widgets" satisfies the
@@ -345,19 +378,28 @@ The "Acceptance Criteria" are the specifications the "Widgets"
 must meet for the "Party A" to comply with its requirements and
 obligations under this agreement, detailed in "Attachment X", attached
 to this agreement.</code></pre>
-        </div>
-
-        <h4 class="title is-4">Sample Data</h4>
-        <div class="box">
-            <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code style="white-space: pre-wrap;">{
+            </div>
+            <div class="box" data-content="3">
+                <pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code style="white-space: pre-wrap;">{
     "$class": "org.accordproject.acceptanceofdelivery.AcceptanceOfDeliveryClause",
-    "clauseId": "c8eead40-e9ae-43ba-9c16-185a46357816",
+    "clauseId": "f65b0c36-ffeb-4ccd-8c56-05bb704adc9b",
     "shipper": "Party A",
     "receiver": "Party B",
     "deliverable": "Widgets",
     "businessDays": 10,
     "attachment": "Attachment X"
-}</pre></code>
+}</code></pre>
+            </div>
+            <div class="content box" data-content="4">
+                <span stype="white-space: normal; border: 0; background-color: transparent;">
+<h2>Acceptance of Delivery.</h2>
+<p>"Party A" will be deemed to have completed its delivery obligations<wbr>if in "Party B"'s opinion, the "Widgets" satisfies the<wbr>Acceptance Criteria, and "Party B" notifies "Party A" in writing<wbr>that it is accepting the "Widgets".</p>
+<h2>Inspection and Notice.</h2>
+<p>"Party B" will have 10 Business Days to inspect and<wbr>evaluate the "Widgets" on the delivery date before notifying<wbr>"Party A" that it is either accepting or rejecting the<wbr>"Widgets".</p>
+<h2>Acceptance Criteria.</h2>
+<p>The "Acceptance Criteria" are the specifications the "Widgets"<wbr>must meet for the "Party A" to comply with its requirements and<wbr>obligations under this agreement, detailed in "Attachment X", attached<wbr>to this agreement.</p>
+</span>
+            </div>
         </div>
 
         <h2 class="title is-2">Template Model</h2>
@@ -366,13 +408,13 @@ to this agreement.</code></pre>
 
         <h4 class="title is-4">Model Dependencies</h4>
         <div class="content">
-          <ul>
+            <ul>
+                
+                    <li><a href="https://models.accordproject.org/cicero/contract.html">org.accordproject.cicero.contract.*</a></li>
           
-          <li><a href="https://models.accordproject.org/cicero/contract.html">org.accordproject.cicero.contract.*</a></li>
+                    <li><a href="https://models.accordproject.org/cicero/runtime.html">org.accordproject.cicero.runtime.*</a></li>
           
-          <li><a href="https://models.accordproject.org/cicero/runtime.html">org.accordproject.cicero.runtime.*</a></li>
-          
-          <li><a href="https://models.accordproject.org/organization.html">org.accordproject.organization.Organization</a></li>
+                    <li><a href="https://models.accordproject.org/organization.html">org.accordproject.organization.Organization</a></li>
           
           </ul>
         </div>
@@ -399,7 +441,7 @@ to this agreement.</code></pre>
                     <th>org.accordproject.cicero.contract.AccordContractState</th>
                     <td><pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="json" style="white-space: pre-wrap;">{
     "$class": "org.accordproject.cicero.contract.AccordContractState",
-    "stateId": "b6bed600-1d5f-11ea-9a89-51fed438a842"
+    "stateId": "1442b3d0-236b-11ea-8991-6ff427fe4237"
 }</code></pre></td>
                 </tr>
             
@@ -420,10 +462,10 @@ to this agreement.</code></pre>
                     <th>org.accordproject.acceptanceofdelivery.InspectDeliverable</th>
                     <td><pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="json" style="white-space: pre-wrap;">{
     "$class": "org.accordproject.acceptanceofdelivery.InspectDeliverable",
-    "deliverableReceivedAt": "2019-12-12T23:19:11.322-05:00",
-    "inspectionPassed": true,
-    "transactionId": "b6bdc490-1d5f-11ea-9a89-51fed438a842",
-    "timestamp": "2019-12-12T23:19:11.322-05:00"
+    "deliverableReceivedAt": "2019-12-20T15:55:39.655-05:00",
+    "inspectionPassed": false,
+    "transactionId": "1441a260-236b-11ea-8991-6ff427fe4237",
+    "timestamp": "2019-12-20T15:55:39.655-05:00"
 }</pre></code></td>
                 </tr>
             
@@ -445,10 +487,10 @@ to this agreement.</code></pre>
                     <td><pre style="white-space: pre-wrap; border: 0; background-color: transparent;"><code class="json" style="white-space: pre-wrap;">{
     "$class": "org.accordproject.acceptanceofdelivery.InspectionResponse",
     "status": "PASSED_TESTING",
-    "shipper": "resource:org.accordproject.organization.Organization#4045",
-    "receiver": "resource:org.accordproject.organization.Organization#9141",
-    "transactionId": "b6be87e0-1d5f-11ea-9a89-51fed438a842",
-    "timestamp": "2019-12-12T23:19:11.326-05:00"
+    "shipper": "resource:org.accordproject.organization.Organization#3138",
+    "receiver": "resource:org.accordproject.organization.Organization#0864",
+    "transactionId": "144265b0-236b-11ea-8991-6ff427fe4237",
+    "timestamp": "2019-12-20T15:55:39.659-05:00"
 }</pre></code></td>
                 </tr>
             
